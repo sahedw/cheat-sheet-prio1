@@ -168,7 +168,7 @@ function Jokes() {
 
 ## React State uplifting
 
-![Image](./img/Lift-useState-up.PNG)
+![Image](./img/Lift-useState-up.png)
 
 ## fetch
 
