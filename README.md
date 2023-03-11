@@ -175,14 +175,14 @@ function Jokes() {
 ### Some small comments:
 
 - starts wihtin the first argument of the useEffect hook
-- needs a async function
-  error handling through a ry and catch block
-  await fetching and te conversion of the data into .json()
+- needs a async function,
+  error handling through a try and catch block,
+  await fetching and the conversion of the data into .json()
 - dependency array (second argument of the useEffect hook) sets the condition of reloading.
 
 ## localStorage
 
-- we`re using the use-local-storage-state library from npm
+- we're using the use-local-storage-state library from npm
 - you can use it as a drop-in replacement for the useState hook (commented out in the example below).
 - the first argument is the key under which the browser will store the data. The second argument stats with the defaultCalue and is required.
 
@@ -256,6 +256,6 @@ if (number > 100) {
 const boolean = true;
 // first the condition ending with '?' then what should be returned if tge condition is met. If the condition is not met then the black after ":" gets returned.
 boolean
-  ? "Its true, therefore I'm executed :)"
-  : "Its false, therefore I'm not executed :(";
+  ? "Condition is true, therefore I'm executed :)"
+  : "Condition is true, therefore I'm not executed :(";
 ```
