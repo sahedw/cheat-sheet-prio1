@@ -254,8 +254,11 @@ if (number > 100) {
 
 ```js
 const boolean = true;
-// first the condition ending with '?' then what should be returned if the condition is met. If the condition is not met then the block after ":" gets returned.
+/* first the condition ending with '?' then 
+what should be returned if the condition is met. 
+If the condition is not met then the 
+block after ":" gets returned. */
 boolean
-  ? "Condition is true, therefore I'm executed :)"
-  : "Condition is true, therefore I'm not executed :(";
+  ? "Condition is true -> I'm executed :)"
+  : "Condition is true -> I'm not executed :(";
 ```
