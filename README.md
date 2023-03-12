@@ -10,7 +10,7 @@
 
 ### Array.forEach
 
-- The array method forEach executes some logic for each element within an array
+- The array method `forEach()` executes some logic for each element within an array
 - does not return a new array
 - example:
 
@@ -25,7 +25,7 @@ pets.forEach((pet) => {
 
 ### Array.filter
 
-- The array method `filter` is used to create a new array with just the elements from the original array, that pass the test implemented by the provided function.
+- The array method `filter()` is used to create a new array with just the elements from the original array, that pass the test implemented by the provided function.
 - example:
 
 ```javascript
@@ -38,7 +38,7 @@ console.log(petsWithF); // ['ferret', 'fish']
 
 ### Array.map
 
-- The array method map is used to apply a transformation to each element of an array
+- The array method `map()` is used to apply a transformation to each element of an array
 - The transformed elements are stored in the newly created array returned by map
 - example:
 
@@ -52,7 +52,7 @@ console.log(uppercasePets); // ['BIRD', 'CAT', 'DOG', 'FERRET', 'FISH']
 
 ### Array.find
 
-- Use find() to receive the first element of the array that satisfies the provided testing function. Otherwise, it returns undefined
+- Use `find()` to receive the first element of the array that satisfies the provided testing function. Otherwise, it returns undefined
 - example:
 
 ```javascript
@@ -184,7 +184,7 @@ function Jokes() {
 
 - we're using the use-local-storage-state library from npm
 - you can use it as a drop-in replacement for the useState hook (commented out in the example below).
-- the first argument is the key under which the browser will store the data. The second argument stats with the defaultCalue and is required.
+- the first argument is the key under which the browser will store the data. The second argument starts with the defaultValue and is required.
 
 ```js
 // import { useState } from "react";
@@ -254,7 +254,7 @@ if (number > 100) {
 
 ```js
 const boolean = true;
-// first the condition ending with '?' then what should be returned if tge condition is met. If the condition is not met then the black after ":" gets returned.
+// first the condition ending with '?' then what should be returned if the condition is met. If the condition is not met then the block after ":" gets returned.
 boolean
   ? "Condition is true, therefore I'm executed :)"
   : "Condition is true, therefore I'm not executed :(";
