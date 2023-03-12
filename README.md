@@ -25,7 +25,7 @@ pets.forEach((pet) => {
 
 ### Array.filter
 
-- The array method filter is used to create a new array with a subset of the elements of the original array
+- The array method `filter` is used to create a new array with just the elements from the original array, that pass the test implemented by the provided function.
 - example:
 
 ```javascript
